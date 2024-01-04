@@ -1,0 +1,22 @@
+.chat-container{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.chat-head{
+    box-shadow: 3px 2px 6px 2px #add8e665;
+    height: 12vh;
+    padding: 0 2vw;
+    display: flex;
+    align-items: center;
+}
+.chat-message input{
+    width: 100%;
+    padding: 3vh 1vw;
+    border: none;
+    outline: none;
+    background-color: rgba(211, 211, 211, 0.592);
+    font-size: 1rem;
+}

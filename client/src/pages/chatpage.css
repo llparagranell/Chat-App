@@ -1,0 +1,138 @@
+.chatpage{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.username{
+    padding: 2vh 2vw;
+}
+.username div{
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.username p{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.chat-list{
+    width: 30%;
+    height: 100vh;
+    border-right: 1px solid rgba(173, 216, 230, 0.307);
+}
+.list{
+    padding: 0 2vw;
+    overflow: auto;
+    height: 70vh;
+}
+.list-container{
+    margin: 15px 0;
+    background: burlywood;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+.user-chat{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 2vw;
+    align-items: baseline;
+    color: white;
+}
+.user-chat div{
+    font-size: 2rem;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.user-chat p{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.message-area{
+    height: 83vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #3269ac; 
+  }
+   
+.messeges {
+    padding: 0 2vw;
+    margin: 1vh 0;
+    display: flex;
+    flex-direction: column;
+}
+.cl{
+    padding: 0 2vw;
+    margin: 1vh 0;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.messeges-name{
+    color: white;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.messeges-message{
+    background-color: #627f83;
+    ;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius: 0 10px 10px 10px;
+    font-size: 1.3rem;
+}
+.messeges-message-cl{
+    background-color: #508e95;
+    ;
+    width: fit-content;
+    padding: 5px 20px;
+    border-radius:10px 0 10px 10px;
+    font-size: 1.3rem;
+}
+.chat-area{
+    width: 69.9%;
+    height: 100vh;
+    position: relative;
+}
+
+ .chat-area form{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 1px;
+}
+.chat-area form input{
+    width: 88%;
+    font-size: 1rem;
+    padding: 20px 20px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: darkslategrey;
+}
+.chat-area form input::placeholder {
+    color: rgba(255, 255, 255, 0.571);
+}
+.chat-area form button{
+    width: 11%;
+    cursor: pointer;
+    background-color: burlywood;
+    border: none;
+    font-size: 1rem;
+}
+.chat-area form button:hover{
+    background-color: rgba(222, 184, 135, 0.868);
+} 
